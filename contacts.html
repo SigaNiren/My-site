@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакти | Мій сайт</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><img src="images/logo.svg" alt="" class="logo"> Мій сайт</a>
+    <button class="menu-toggle" aria-label="Відкрити меню" aria-expanded="false">☰</button>
+    <nav class="nav"><a href="index.html">Головна</a><a href="about.html">Про мене</a><a href="gallery.html">Галерея</a><a class="active" href="contacts.html">Контакти</a></nav>
+  </div></header>
+  <main class="container page section">
+    <p class="eyebrow">Зворотний зв’язок</p><h1>Контакти</h1>
+    <div class="contact-panel">
+      <div><h2>Зв’язок</h2><p>Ця сторінка створена як частина навчального вебпроєкту. За потреби тут можна розмістити власні контактні дані.</p>
+      <p><strong>Електронна пошта:</strong> <span class="muted">додайте свою адресу</span></p>
+      <p><strong>Навчальний проєкт:</strong> Фінальне компонування Web-сайту</p></div>
+      <form class="contact-form">
+        <label for="name">Ваше ім’я</label><input id="name" name="name" type="text" placeholder="Введіть ім’я" required>
+        <label for="email">Електронна пошта</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="message">Повідомлення</label><textarea id="message" name="message" rows="4" placeholder="Ваше повідомлення" required></textarea>
+        <button class="button" type="submit">Надіслати</button><p class="form-note" aria-live="polite"></p>
+      </form>
+    </div>
+  </main>
+  <footer class="footer"><div class="container"><p>© <span class="year"></span> Мій сайт. Навчальний проєкт.</p></div></footer>
+</body>
+</html>

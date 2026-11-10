@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Особистий навчальний сайт студента">
+  <title>Головна | Мій сайт</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.svg" alt="" class="logo"> Мій сайт</a>
+      <button class="menu-toggle" aria-label="Відкрити меню" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <a class="active" href="index.html">Головна</a>
+        <a href="about.html">Про мене</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="contacts.html">Контакти</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Навчальний вебпроєкт</p>
+        <h1>Вітаю на моєму сайті!</h1>
+        <p class="hero-text">Це мій невеликий особистий сайт, створений під час вивчення HTML, CSS та JavaScript. Тут зібрана інформація про мене, мої інтереси та навчання.</p>
+        <a class="button" href="about.html">Дізнатися більше</a>
+      </div>
+    </section>
+    <section class="container section">
+      <h2>Що є на сайті?</h2>
+      <div class="cards">
+        <article class="card"><span class="card-icon">👤</span><h3>Про мене</h3><p>Коротка інформація про навчання та інтереси.</p><a href="about.html">Переглянути →</a></article>
+        <article class="card"><span class="card-icon">🖼️</span><h3>Галерея</h3><p>Добірка зображень для оформлення сайту.</p><a href="gallery.html">Переглянути →</a></article>
+        <article class="card"><span class="card-icon">✉️</span><h3>Контакти</h3><p>Сторінка з контактною інформацією.</p><a href="contacts.html">Переглянути →</a></article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><p>© <span class="year"></span> Мій сайт. Навчальний проєкт.</p></div></footer>
+</body>
+</html>
